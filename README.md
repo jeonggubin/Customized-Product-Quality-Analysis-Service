@@ -51,7 +51,7 @@
 | 분류 | 기술 Stack |
 | :--- | :--- |
 | **Languages** | C, Python |
-| **Frameworks/ Libraries** | YOLOv5nu, YOLOv8n, YOLOv11n, PyTorch, OpenCV, Scikit-learn, Streamlit |
+| **Frameworks/ Libraries** | YOLOv5nu, YOLOv8n, YOLO11n, PyTorch, OpenCV, Scikit-learn, Streamlit |
 | **Database** | MariaDB |
 | **Hardware/OS** | STM32F446, Raspberry Pi 5, Linux (Raspberry Pi OS) |
 | **RAG / LLM** | Qwen3:8B, BGE-M3, Ollama |
