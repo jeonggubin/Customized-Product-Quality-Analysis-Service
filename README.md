@@ -77,7 +77,7 @@
 |   └── serial_db_logger.py       # 시리얼 수집 데이터 DB 적재 로거
 │
 ├── ⚡ stm32_mcu/                 # 하드웨어 센서 제어
-│   ├── factory_sensor.c                   # 온습도, 공기질, 조도 데이터 수집 드라이버
+│   ├── factory_sensor.c          # 온습도, 공기질, 조도 데이터 수집 드라이버
 │   ├── main.c                    # MCU 메인 제어 루프 및 시리얼 송신 로직
 │   ├── stm32f4xx_hal_msp.c       # 주변장치 초기화 설정
 │   ├── stm32f4xx_it.c            # 인터럽트 서비스 루틴 관리
