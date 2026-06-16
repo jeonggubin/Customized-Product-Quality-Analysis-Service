@@ -66,6 +66,28 @@
 
 ## 📂 디렉토리 구조
 
+```text
+├── 💻 streamlit_server/          # 중앙 관리 서버 및 웹 대시보드
+│   ├── chocolate.py              # 메인 대시보드 및 비전/공정 AI 파이프라인 연동
+│   └── apple.py                  # 확장 상용화 테스트(사과 품질 분석) 파트
+│
+├── 🍓 raspberry_pi/              # 엣지 디바이스 및 AI 카메라 제어
+│   ├── rpi_client.py             # 라즈베리파이 메인 클라이언트 구동 스크립트
+│   ├── servo.py                  # 불량 제품 분류 서보모터 제어
+|   └── serial_db_logger.py       # 시리얼 수집 데이터 DB 적재 로거
+│
+├── ⚡ stm32_mcu/                 # 하드웨어 센서 제어
+│   ├── factory_sensor.c                   # 온습도, 공기질, 조도 데이터 수집 드라이버
+│   ├── main.c                    # MCU 메인 제어 루프 및 시리얼 송신 로직
+│   ├── stm32f4xx_hal_msp.c       # 주변장치 초기화 설정
+│   ├── stm32f4xx_it.c            # 인터럽트 서비스 루틴 관리
+│   ├── syscalls.c                # 시스템 콜 구현 표준 파일
+│   ├── sysmem.c                  # 힙 메모리 관리 및 시스템 메모리 할당
+│   └── system_stm32f4xx.c        # 시스템 클럭 및 오실레이터 설정
+│
+└── 📊 docs/                      # 데이터베이스 및 가이드 문서
+    └── dbdiagram.io              # MariaDB 관계형 데이터베이스 스키마 설계 파일
+```
 ---
 
 ## 🔍 상세 기능 설명
