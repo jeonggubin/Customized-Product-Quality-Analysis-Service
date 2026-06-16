@@ -1,8 +1,0 @@
-../Core/Src/DHT11.c:8:13:delay_us	2
-../Core/Src/DHT11.c:14:13:DHT11_Debug	1
-../Core/Src/DHT11.c:19:13:DHT11_SetInput	1
-../Core/Src/DHT11.c:29:13:DHT11_SetOutput	1
-../Core/Src/DHT11.c:41:16:DHT11_WaitForPin	3
-../Core/Src/DHT11.c:56:16:DHT11_ReadByte	5
-../Core/Src/DHT11.c:90:6:DHT11_Init	1
-../Core/Src/DHT11.c:97:12:DHT11_Read	10
