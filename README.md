@@ -6,10 +6,12 @@
   <tr>
     <td align="center"><img src="https://github.com/user-attachments/assets/aac00c0d-2f59-459a-bedb-58f977910fe5" height="280" alt="인간의 육안 검사 오류 분석"></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/13cfb3db-373f-4b7b-9793-688f73ec4797" height="280" alt="고용노동부 중소기업 빈일자리 실태조사"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/eba1f57e-3666-4f9a-9033-826c9f15523e" height="280" alt="스마트 공장 구축 AI 도입 의견조사"></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><b>작업 시간에 따른 검사 정확도 변화</b></td>
-    <td align="center" width="50%"><b>국내 주요 산업별 빈일자리 비중</b></td>
+    <td align="center" width="33.3%"><b>작업 시간에 따른 검사 정확도 변화</b></td>
+    <td align="center" width="33.3%"><b>국내 주요 산업별 빈일자리 비중</b></td>
+    <td align="center" width="33.3%"><b>스마트 공장 AI 도입 필요 분야</b></td>
   </tr>
 </table>
 
