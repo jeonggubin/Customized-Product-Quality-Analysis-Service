@@ -5,12 +5,12 @@
 <table align="center">
   <tr>
     <td align="center" valign="top">
-      <a href="https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/tree/main/images">
+      <a href="https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/blob/main/images/%EC%9D%B8%EA%B0%84%EC%9D%98%20%EC%9C%A1%EC%95%88%20%EA%B2%80%EC%82%AC%20%EC%98%A4%EB%A5%98%20%EB%B6%84%EC%84%9D.png">
         <img src="https://github.com/user-attachments/assets/f58c0498-0ed4-496a-b1de-fa32ddb04d43" height="280" alt="작업 시간에 따른 검사 정확도 변화">
       </a>
     </td>
     <td align="center" valign="top">
-      <a href="https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/tree/main/images">
+      <a href="https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/blob/main/images/%EA%B3%A0%EC%9A%A9%EB%85%B8%EB%8F%99%EB%B6%80%20%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85%20%EB%B9%88%EC%9D%BC%EC%9E%90%EB%A6%AC%20%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC.png">
         <img src="https://github.com/user-attachments/assets/13cfb3db-373f-4b7b-9793-688f73ec4797" height="280" alt="국내 주요 산업별 빈일자리 비중">
       </a>
     </td>
