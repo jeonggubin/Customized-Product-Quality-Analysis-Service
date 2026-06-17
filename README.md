@@ -68,8 +68,15 @@
 ---
 
 ## 🧩 시스템 흐름도
-<img width="1920" height="1080" alt="11" src="https://github.com/user-attachments/assets/c3399c21-8b63-4f24-b0fa-320d1f1c1f31" />
-
+<table align="center" width="100%">
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <a href="https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/blob/main/images/%EC%84%9C%EB%B9%84%EC%8A%A4%ED%9D%90%EB%A6%84%EB%8F%84.jpg">
+        <img src="https://github.com/user-attachments/assets/c3399c21-8b63-4f24-b0fa-320d1f1c1f31" width="100%" alt="서비스 시스템 흐름도">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
