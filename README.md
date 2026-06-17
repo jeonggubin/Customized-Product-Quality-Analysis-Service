@@ -65,26 +65,7 @@
 | **Hardware/OS** | STM32F446, Servo_Motor(MG996R), Raspberry Pi 5, Webcam, Linux (Raspberry Pi OS) |
 | **RAG / LLM** | Qwen3:8B, BGE-M3, Ollama |
 
-<!-- Frameworks & Libraries -->
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white" /> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white" />
-
-<!-- YOLO Series -->
-<img src="https://img.shields.io/badge/YOLOv5nu-00FFFF?style=flat-square&logo=PyTorch&logoColor=black" /> <img src="https://img.shields.io/badge/YOLOv8n-00FFFF?style=flat-square&logo=PyTorch&logoColor=black" /> <img src="https://img.shields.io/badge/YOLO11n-00FFFF?style=flat-square&logo=PyTorch&logoColor=black" />
-
-<!-- RAG / LLM -->
-<img src="https://img.shields.io/badge/Qwen3--8B-551A8B?style=flat-square&logo=render&logoColor=white" /> <img src="https://img.shields.io/badge/BGE--M3-4B0082?style=flat-square&logo=databricks&logoColor=white" /> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=Ollama&logoColor=white" />
-
-<!-- Hardware -->
-<img src="https://img.shields.io/badge/STM32F446-03234B?style=flat-square&logo=STMicroelectronics&logoColor=white" /> <img src="https://img.shields.io/badge/Raspberry%20Pi%205-C51A4A?style=flat-square&logo=Raspberry%20Pi&logoColor=white" />
-
-<!-- Database -->
-<img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white" />
-
-<!-- Communication -->
-<img src="https://img.shields.io/badge/Serial(UART)-FF6F61?style=flat-square&logo=diagrams.net&logoColor=white" /> <img src="https://img.shields.io/badge/Wi--Fi-4285F4?style=flat-square&logo=google-home&logoColor=white" />
-
-<!-- Hardware & OS -->
-<img src="https://img.shields.io/badge/Servo__Motor(MG996R)-FFB900?style=flat-square&logo=actigraph&logoColor=black" /> <img src="https://img.shields.io/badge/Webcam-00A4EF?style=flat-square&logo=microsoft&logoColor=white" /> <img src="https://img.shields.io/badge/Linux%20(RPi%20OS)-FCC624?style=flat-square&logo=Linux&logoColor=black" />
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white" /> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/YOLOv5nu-00FFFF?style=flat-square&logo=PyTorch&logoColor=black" /> <img src="https://img.shields.io/badge/YOLOv8n-00FFFF?style=flat-square&logo=PyTorch&logoColor=black" /> <img src="https://img.shields.io/badge/YOLO11n-00FFFF?style=flat-square&logo=PyTorch&logoColor=black" /> <img src="https://img.shields.io/badge/Qwen3--8B-551A8B?style=flat-square&logo=render&logoColor=white" /> <img src="https://img.shields.io/badge/BGE--M3-4B0082?style=flat-square&logo=databricks&logoColor=white" /> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=Ollama&logoColor=white" /> <img src="https://img.shields.io/badge/Serial(UART)-FF6F61?style=flat-square&logo=diagrams.net&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=white" /> <img src="https://img.shields.io/badge/Linux%20(RPi%20OS)-FCC624?style=flat-square&logo=Linux&logoColor=black" />
 
 ---
 
