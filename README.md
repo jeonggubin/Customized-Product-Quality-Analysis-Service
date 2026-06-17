@@ -5,10 +5,14 @@
 <table align="center">
   <tr>
     <td align="center" valign="top">
-      <img src="https://github.com/user-attachments/assets/f58c0498-0ed4-496a-b1de-fa32ddb04d43" height="280" alt="작업 시간에 따른 검사 정확도 변화">
+      <a href="https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/tree/main/images">
+        <img src="https://github.com/user-attachments/assets/f58c0498-0ed4-496a-b1de-fa32ddb04d43" height="280" alt="작업 시간에 따른 검사 정확도 변화">
+      </a>
     </td>
     <td align="center" valign="top">
-      <img src="https://github.com/user-attachments/assets/13cfb3db-373f-4b7b-9793-688f73ec4797" height="280" alt="국내 주요 산업별 빈일자리 비중">
+      <a href="https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/tree/main/images">
+        <img src="https://github.com/user-attachments/assets/13cfb3db-373f-4b7b-9793-688f73ec4797" height="280" alt="국내 주요 산업별 빈일자리 비중">
+      </a>
     </td>
   </tr>
   <tr>
