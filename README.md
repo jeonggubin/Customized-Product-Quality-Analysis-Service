@@ -90,16 +90,128 @@
 
 ## 🔍 상세 기능 설명
 ### 1. 실시간 데이터 전처리 및 ML 기반 공정 불량 예측 파이프라인
-<img width="1920" height="1080" alt="INTEL 초콜릿 공장 (2)" src="https://github.com/user-attachments/assets/7d4b764b-d892-4b4c-84dd-112dde4ca802" />
+<table align="center" width="100%">
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github.com/user-attachments/assets/7d4b764b-d892-4b4c-84dd-112dde4ca802" width="100%" alt="공정 센서 데이터 ML 예측 파이프라인">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding-top: 15px;">
+      <b>📊 ML 기반 공정 데이터 분석 및 불량 예측 파이프라인 (Process Data ML Prediction Pipeline)</b>
+    </td>
+  </tr>
+</table>
 
 
 * **데이터 포맷 변환 (Pivot Processing):** 제품 1개당 6개의 공정(로스팅, 분쇄, 콘칭, 템퍼링, 몰딩, 냉각)으로 나뉘어 들어오는 시계열 Long Format 데이터를 하나의 행(Wide Format)으로 변환하는 자동화 피벗 파이프라인을 구축했습니다.
 * **데이터 스케일링 및 불균형 해소:** 센서별 데이터 편차를 제어하기 위해 0~1 범위로 스케일을 통일(Scaling)하고, 정상 데이터 대비 극소수인 불량 데이터를 보강하기 위해 AI 기반 불량 데이터 증강 알고리즘을 적용하여 모델의 편향(Bias)을 방지했습니다.
 * **최적 모델 자동 선택:** Random Forest, XGBoost, LightGBM 등 총 7종의 머신러닝 모델을 동시 학습시킨 후, `macro-F1 score`가 가장 높은 최적의 모델을 시스템이 자동 선택하여 추론(Inference)에 활용합니다.
 
----
+### 2. 비전 AI 알고리즘 (사용자 맞춤형 자동 학습 프로세스)
+사용자의 제조 환경에 맞춰 '외관 분류(Classification)'와 '객체 탐지(Detection)' 중 원하는 학습 방식을 선택하면, 이미지 업로드부터 모델별 성능 비교 및 경량화(ONNX)까지의 전 과정이 자동으로 수행되는 맞춤형 AI 모델 생성 파이프라인을 제공합니다.
+<table align="center" width="100%">
+  <tr>
+    <td align="center" colspan="3" width="50%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/b6791ec4-30ed-48bb-b55a-63b7ac84e716" width="100%" alt="YOLO 기반 객체 탐지 화면">
+    </td>
+    <td align="center" colspan="3" width="50%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/3e26b5f4-b2ca-457b-86f1-77c6d680af41" width="100%" alt="경량 백본 기반 외관 분류 화면">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3" style="padding-top: 8px; padding-bottom: 35px;">
+      <b>🔍 Detection Mode</b>
+    </td>
+    <td align="center" colspan="3" style="padding-top: 8px; padding-bottom: 35px;">
+      <b>📊 Classification Mode</b>
+    </td>
+  </tr>
 
-## 🖼 시연 화면
+  <tr>
+    <td align="center" colspan="2" width="33.3%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/d54de863-3fc4-4944-bece-728bade27881" width="100%" alt="배경흰색 정상">
+    </td>
+    <td align="center" colspan="2" width="33.3%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/162d2bb2-ba5a-4426-abf5-c25bfebc255a" width="100%" alt="크랙흰색">
+    </td>
+    <td align="center" colspan="2" width="33.3%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/b344d64e-8252-4c5e-960d-42c71ad2e3b1" width="100%" alt="크랙불름흰색">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2" style="padding-top: 8px;">
+      <b>🟢 정상 제품 (NoDefects)</b>
+    </td>
+    <td align="center" colspan="2" style="padding-top: 8px;">
+      <b>🔴 균열 제품 (Crack)</b>
+    </td>
+    <td align="center" colspan="2" style="padding-top: 8px;">
+      <b>🟡 백화/복합 불량 (Crack_Bloom)</b>
+    </td>
+  </tr>
+</table>
+
+### 3. RAG 기반 지능형 제조 공정 진단 AI 챗봇
+<table align="center" width="100%">
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github.com/user-attachments/assets/110ef421-9b9d-42e8-86c7-73d6b90ea3df" width="100%" alt="RAG 기반 AI 챗봇 대시보드 화면">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding-top: 15px;">
+      <b>🤖 RAG 기반 지능형 공정 진단 AI 챗봇 (Intelligent Process Diagnosis AI Chatbot)</b>
+    </td>
+  </tr>
+</table>
+
+* **자연어 가이드 가동:** 현장 작업자가 웹 대시보드를 통해 불량 이력이나 조치 방법을 자연어로 질문하면, 공정 매뉴얼 데이터베이스를 기반으로 실시간 대처 가이드를 제공합니다.
+* **로컬 LLM 아키텍처:** 데이터 외부 유출 방지 및 보안을 위해 로컬 환경에서 `BGE-M3` 임베딩 모델로 수만 건의 문서를 벡터화한 후, 오프라인 거대 언어 모델인 `Qwen3:8B`를 활용해 맥락을 파악하고 답변을 생성하는 완전 폐쇄형 RAG 파이프라인을 구현했습니다.
+
+### 4. 통합 품질 분석 보고서 및 도메인 상용화 확장성 (사과 품질 분석)
+* **공정 센서 영향도 분석:** 비전 검사 결과 불량으로 판정된 제품의 이력을 바탕으로, 어떤 공정의 어떤 센서 변수(예: 로스팅 연기 ADC, 분쇄 온도 등)가 불량 발생에 가장 큰 영향을 미쳤는지 특성 중요도(Feature Importance) 순위를 매겨 시각화 보고서를 발행합니다.
+* **크로스 도메인 상용화 검증:** 초콜릿 공정 플랫폼에서 확보한 파이프라인 범용성을 바탕으로, 신선도 및 부패 여부를 추적하는 **'사과 품질 분석 공정'** 시스템으로의 기술 전이(Transfer) 및 상용화 확장성 검증을 마쳤습니다.
+
+### 5. 에지 하드웨어 연동 및 분산 데이터베이스 설계(확장성)
+* **공정 라인별 독립 데이터 수집:** Raspberry Pi 5 및 STM32(MCU) 보드를 물리 팩토리 인터페이스와 연동하여 온습도, 조도, 공기질 등 3종의 환경 센서 데이터를 실시간 피딩받습니다.
+* **MariaDB 아키텍처 스키마:** 각 공정 라인(Line A-1, Line A-2 등)에서 수집된 대용량 시계열 데이터가 꼬이지 않고 현재 타임스탬프와 매핑되어 무결성을 유지하도록 관계형 데이터베이스 구조를 구축했습니다.
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/2976970a-066d-4674-a5d3-0c6c8642e1e8" width="100%" alt="하드웨어 회로도">
+    </td>
+    <td align="center" width="50%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/e1052976-064c-4929-85be-648b9b3fa6ee" width="100%" alt="하드웨어 핀맵">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding-top: 8px; padding-bottom: 30px;">
+      <b>⚙️ 하드웨어 회로도 (Hardware Circuit)</b>
+    </td>
+    <td align="center" style="padding-top: 8px; padding-bottom: 30px;">
+      <b>📌 MCU 핀맵 구성 (Pin Mapping)</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="50%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/18f54fc9-be91-43c1-a32e-caf7bf6fe048" width="100%" alt="DB 스키마">
+    </td>
+    <td align="center" width="50%" style="padding: 5px; valign: top;">
+      <img src="https://github.com/user-attachments/assets/3362bc59-9e2f-4f76-83ce-1cd049c92764" width="100%" alt="라인별 마리아DB 데이터">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding-top: 8px;">
+      <b>🗄️ 데이터베이스 구조 (DB Schema)</b>
+    </td>
+    <td align="center" style="padding-top: 8px;">
+      <b>📈 라인별 수집 데이터 (MariaDB Logs)</b>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
