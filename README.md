@@ -4,12 +4,16 @@
 ### 🛠 개발 배경
 <table align="center">
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/aac00c0d-2f59-459a-bedb-58f977910fe5" height="280" alt="인간의 육안 검사 오류 분석"></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/13cfb3db-373f-4b7b-9793-688f73ec4797" height="280" alt="고용노동부 중소기업 빈일자리 실태조사"></td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/f58c0498-0ed4-496a-b1de-fa32ddb04d43" height="280" alt="작업 시간에 따른 검사 정확도 변화">
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/13cfb3db-373f-4b7b-9793-688f73ec4797" height="280" alt="국내 주요 산업별 빈일자리 비중">
+    </td>
   </tr>
   <tr>
-    <td align="center" width="33.3%"><b>작업 시간에 따른 검사 정확도 변화</b></td>
-    <td align="center" width="33.3%"><b>국내 주요 산업별 빈일자리 비중</b></td>
+    <td align="center"><b>작업 시간에 따른 검사 정확도 변화</b></td>
+    <td align="center"><b>국내 주요 산업별 빈일자리 비중</b></td>
   </tr>
 </table>
 
@@ -85,6 +89,13 @@
 ---
 
 ## 🔍 상세 기능 설명
+### 1. 실시간 데이터 전처리 및 ML 기반 공정 불량 예측 파이프라인
+<img width="1920" height="1080" alt="INTEL 초콜릿 공장 (2)" src="https://github.com/user-attachments/assets/7d4b764b-d892-4b4c-84dd-112dde4ca802" />
+
+
+* **데이터 포맷 변환 (Pivot Processing):** 제품 1개당 6개의 공정(로스팅, 분쇄, 콘칭, 템퍼링, 몰딩, 냉각)으로 나뉘어 들어오는 시계열 Long Format 데이터를 하나의 행(Wide Format)으로 변환하는 자동화 피벗 파이프라인을 구축했습니다.
+* **데이터 스케일링 및 불균형 해소:** 센서별 데이터 편차를 제어하기 위해 0~1 범위로 스케일을 통일(Scaling)하고, 정상 데이터 대비 극소수인 불량 데이터를 보강하기 위해 AI 기반 불량 데이터 증강 알고리즘을 적용하여 모델의 편향(Bias)을 방지했습니다.
+* **최적 모델 자동 선택:** Random Forest, XGBoost, LightGBM 등 총 7종의 머신러닝 모델을 동시 학습시킨 후, `macro-F1 score`가 가장 높은 최적의 모델을 시스템이 자동 선택하여 추론(Inference)에 활용합니다.
 
 ---
 
