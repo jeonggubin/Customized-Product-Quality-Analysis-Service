@@ -1,4 +1,4 @@
-# Team: sweet-smart-factory
+# 🏭 Team: sweet-smart-factory
 # 맞춤형 제품 품질 분석 서비스
 
 ### 🛠 개발 배경
