@@ -1,5 +1,4 @@
-# 🏭 Team: sweet-smart-factory
-# 맞춤형 제품 품질 분석 서비스
+# <img src="https://capsule-render.vercel.app/api?type=waving&color=B07D7B&height=250&section=header&text=%EB%A7%9E%EC%B6%A4%ED%98%95%20%EC%A0%9C%ED%92%88%20%ED%92%88%EC%A7%88%20%EB%B6%84%EC%84%9D%20%EC%84%9C%EB%B9%84%EC%8A%A4&desc=sweet-smart-factory&fontSize=42&fontColor=ffffff&descSize=20&descAlignSub=62&animation=fadeIn" width="100%" />
 
 ### 🛠 개발 배경
 <table align="center">
@@ -253,7 +252,7 @@
 
 
 ## ⚙️ 컨베이어 불량 분류 시스템
-<img width="4032" height="3024" alt="KakaoTalk_20260611_205150660_01" src="https://github.com/user-attachments/assets/4216e83b-b3d3-4465-9c6e-98ceee784195" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ffb6c1&height=250&section=header&text=sweet-smart-factory&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%" />
 
 ---
 
