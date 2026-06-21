@@ -253,9 +253,6 @@
 ## 🎬 시연 영상
 
 <table align="center" width="100%">
-## 🎬 시연 영상
-
-<table align="center" width="100%">
   <tr>
     <td align="center" style="padding: 10px;">
       <a href="https://youtu.be/LRzQxuyYbDs">
