@@ -254,6 +254,7 @@
 ## ⚙️ 컨베이어 불량 분류 시스템
 <img width="4032" height="3024" alt="KakaoTalk_20260611_205150660_01" src="https://github.com/user-attachments/assets/4216e83b-b3d3-4465-9c6e-98ceee784195" />
 
+---
 
 ## 🎬 시연 영상
 
