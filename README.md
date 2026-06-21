@@ -252,6 +252,19 @@
 
 ## 🎬 시연 영상
 
+<table align="center" width="100%">
+## 🎬 시연 영상
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <a href="https://youtu.be/LRzQxuyYbDs">
+        <img src="https://img.youtube.com/vi/LRzQxuyYbDs/hqdefault.jpg" width="80%" alt="맞춤형 제품 품질 분석 서비스 시연 영상" style="border-radius: 10px; border: 2px solid #FF4B4B;" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## ⚠️ 보완점 및 향후 과제
