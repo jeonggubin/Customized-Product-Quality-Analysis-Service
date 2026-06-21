@@ -252,7 +252,7 @@
 
 
 ## ⚙️ 컨베이어 불량 분류 시스템
-![컨베이어 불량 분류 시스템](https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/raw/main/images/%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B6%88%EB%9F%89%20%EB%B6%84%EB%A5%98%20%EC%8B%9C%EC%8A%A4%ED%85%9C.jpg)
+[![컨베이어 불량 분류 시스템](https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/raw/main/images/%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B6%88%EB%9F%89%20%EB%B6%84%EB%A5%98%20%EC%8B%9C%EC%8A%A4%ED%85%9C.jpg)](https://github.com/jeonggubin/Customized-Product-Quality-Analysis-Service/blob/main/images/%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B6%88%EB%9F%89%20%EB%B6%84%EB%A5%98%20%EC%8B%9C%EC%8A%A4%ED%85%9C.jpg)
 
 ---
 
