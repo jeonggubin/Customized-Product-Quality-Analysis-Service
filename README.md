@@ -84,19 +84,24 @@
 ## 📂 디렉토리 구조
 
 ```text
-├── 💻 streamlit_server/          # 중앙 관리 서버 및 웹 대시보드
-│   ├── chocolate.py              # 메인 대시보드 및 비전/공정 AI 파이프라인 연동
-│   └── apple.py                  # 확장 상용화 테스트(사과 품질 분석) 파트
+├── 📊 docs/                      # 데이터베이스 및 가이드 문서
+│   └── dbdiagram.io              # MariaDB 관계형 데이터베이스 스키마 설계 파일
+│
+├── 🖼️ images/                    # 리드미 및 대시보드 활용 이미지 자산 리소스
 │
 ├── 🍓 raspberry_pi/              # 엣지 디바이스 및 AI 카메라 제어
 │   ├── rpi_client.py             # 라즈베리파이 메인 클라이언트 구동 스크립트
 │   ├── servo.py                  # 불량 제품 분류 서보모터 제어
-|   └── serial_db_logger.py       # 시리얼 수집 데이터 DB 적재 로거
+│   └── serial_db_logger.py       # 시리얼 수집 데이터 DB 적재 로거
 │
 ├── ⚡ stm32_mcu/                 # 하드웨어 센서 제어
 │
-└── 📊 docs/                      # 데이터베이스 및 가이드 문서
-    └── dbdiagram.io              # MariaDB 관계형 데이터베이스 스키마 설계 파일
+├── 💻 streamlit_server/          # 중앙 관리 서버 및 웹 대시보드
+│   ├── chocolate.py              # 메인 대시보드 및 비전/공정 AI 파이프라인 연동
+│   └── apple.py                  # 확장 상용화 테스트(사과 품질 분석) 파트
+│
+├── 📄 README.md                  # 프로젝트 메인 설명
+└── 📕 발표자료.pdf               # 프로젝트 최종 발표
 ```
 ---
 
