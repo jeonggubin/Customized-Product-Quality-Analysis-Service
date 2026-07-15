@@ -59,7 +59,7 @@
 | :--- | :--- |
 | **Languages** | C, Python |
 | **Frameworks/ Libraries** | EfficientNet-B0, MobileNetV3, ResNet-18, YOLOv5nu, YOLOv8n, YOLO11n, PyTorch, OpenCV, Scikit-learn, Streamlit |
-| **Communication** | Serial(UART), Wi-Fi |
+| **Communication** | Serial(UART), Wi-Fi(TCP/IP Socket) |
 | **Database** | MariaDB |
 | **Hardware/OS** | STM32F446, Servo_Motor(MG996R), Raspberry Pi 5, Webcam, Linux (Raspberry Pi OS) |
 | **RAG / LLM** | Qwen3:8B, BGE-M3, Ollama |
